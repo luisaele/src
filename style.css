@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro');
+   
+* {
+  font-family: 'Source Code Pro' monospace;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("img/cesar1.jpg");
+  color: black;
+}
+
+input, button {
+  border:none;
+  outline: none;
+}
+
+main {
+  padding: 50px;
+  background-color: #a18262;
+  box-shadow: 10px 10px 35px 0px rgb(0 0 0 /75%);
+}
+ 
+h1 {
+  padding: 20px;
+  box-shadow: 10px 10px 35px 0px rgb(0 0 0 /75%);
+  background-color: beige;
+}
+
+#input-original, #resultado {
+  background-color: black;
+  width: -webkit-fill-available;
+}
+
+#input-original {
+  margin: 10px 0 0;
+  padding: 15px;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#resultado {
+  height: 15px;
+  color: #5af78d;
+  padding: 0 3px 3px;
+  border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.rango {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1 fr 30px;
+  text-align: center;
+  align-items: center;
+}
+
+input[type='range'] {
+  -webkit-appearance: none;
+  border-radius: 0px;
+  background: black;
+  margin: 0;
+  padding: 0 3px;
+  height: 15px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  cursor: pointer;
+  -webkit-appearance: none;
+  background: white;
+  border-radius: 100%;
+  height: 10px;
+  width: 10px;
+}
+
+  h3, button {
+  padding: 10px;
+  background: #a18262;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em
+}
+
+  button:hover {
+  background: black; ;
+}
+
+p {
+  padding: 20px;
+  background-color: black;
+  font-size: 1em;
+  text-shadow: 1px 1px #fff;
+  text-transform: uppercase;
+  font: 'arial';
+  position: absolute;
+  left: 70%;
+  top: 70%
+}
